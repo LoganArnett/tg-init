@@ -1,0 +1,24 @@
+{
+  "name": "tg-init",
+  "version": "1.0.0",
+  "private": false,
+  "preferGlobal": true,
+  "bin": {
+    "tg-init": "bin/index.js"
+  },
+  "description": "Generate template for .terragrunt file for Terraform setup",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Logan_Arnett/tg-init"
+  },
+  "keywords": [],
+  "author": "Logan_Arnett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Logan_Arnett/tg-init/issues"
+  },
+  "homepage": "https://github.com/Logan_Arnett/tg-init"
+}
