@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 'use strict';
-const files = require('./lib/files');
+const chalk = require('chalk');
+const files = require('../lib/files');
 
-if (!files.findOrCreate('.terragrunt')) {
+if (files.findOrCreate('.terragrunt')) {
     console.log(chalk.red('A Terragrunt file already exists!'));
     process.exit();
 }
